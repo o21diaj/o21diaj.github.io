@@ -7,8 +7,10 @@ body {
 .Hotbar {
 	background-color: black;
 	overflow: hidden;
-	top: 10px;
-	left: 8px;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 48px;
 	position: fixed
 }
 
@@ -21,6 +23,22 @@ body {
 	text-decoration: none;
 	font-size: 17px;
 	font: Arial;
+}
+
+.Hotbar .cas_datum {
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding-right: 14px;
+	padding-bottom: 16px;
+	font-size: 17px;
+	font: Arial;
+}
+
+.Hotbar .active {
+	background-color: rgb(250, 250, 250);
+	color: black;
 }
 
 .Hotbar a:hover {
@@ -58,16 +76,25 @@ body {
 header {
 	text-align: center;
 	font-size: 40px;
+	padding-top: 20px;
+	h1 {
+		font-size: 40px;
+	}
+	h2{
+		font-size: 30px;
+	}
 }
 
 .noble_gases-section {
-	padding: 100px 20px;
 	height: 400px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	font-size: 25px;
+	font-size: 15px;
+	h3 {
+		font-size: 25px;
+	}
 	img {
 		max-width: 250px;
 		border-radius: 8px;
@@ -78,25 +105,25 @@ header {
 }
 
 .detail-page-body {
-	padding: 100px 200px;
-	height: 1000px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 937px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	font-size: 25px;
-
+	font-size: 15px;
+	h1 {
+		font-size: 45px;
+	}
 	img {
-		max-width: 750px;
-		width: 750px;
 		border-radius: 8px;
 	}
 }
 
 .back-button {
 	display: inline-block;
-	padding: 25px 8px;
-	margin-top: 40px;
+	padding: 20px 20px;
 	background-color: rgb(137, 81, 41);
 	color: rgb(0, 0, 0);
 	text-decoration: none;

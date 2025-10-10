@@ -9,15 +9,25 @@
 </head>
 <body class="detail-page-body">
 	<div class="Hotbar" id="NavHotbar">
-		<a href="IDK.HTML" class="active">Home</a>
+		<a href="IDK.HTML" >Home</a>
 		<a href="Helium.HTML">Helium</a>
 		<a href="Neon.HTML">Neon</a>
 		<a href="Argon.HTML">Argon</a>
-		<a href="Krypton.HTML">Krypton</a>
+		<a href="Krypton.HTML" class="active">Krypton</a>
 		<a href="Xenon.HTML">Xenon</a>
 		<a href="javascript:void(0);" class="Bar_icon" onclick="myFunction()">
 			<i class="Bars"></i>
 		</a>
+		<p><span id="cas" class="cas_datum"></span>
+		<script>
+			function Cas (){
+				var datum = new Date()
+				CasRightNow = datum.getHours() + "." + datum.getMinutes() + ":" + datum.getSeconds()
+				window.document.getElementById("cas").innerHTML = CasRightNow;
+			}
+			Cas();
+			window.setInterval("Cas()", 1000);
+		</script>
 	</div>
 	<h1>Krypton</h1>
 	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Krypton_discharge_tube.jpg/250px-Krypton_discharge_tube.jpg">
