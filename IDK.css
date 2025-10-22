@@ -1,7 +1,6 @@
 body {
-	font: Arial;
 	color: rgb(200, 200, 200);
-	background: linear-gradient(0deg, #040404 5%, #3c3f3c 50%, #666b66 100%);
+	background: linear-gradient(45deg, #040404 5%, #3c3f3c 50%, #666b66 100%);
 }
 
 .Hotbar {
@@ -22,7 +21,7 @@ body {
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
-	font: Arial;
+	font-family: Lexend Deca;
 }
 
 .Hotbar .cas_datum {
@@ -33,7 +32,7 @@ body {
 	padding-right: 14px;
 	padding-bottom: 16px;
 	font-size: 17px;
-	font: Arial;
+	font-family: Lexend Deca;
 }
 
 .Hotbar .active {
@@ -80,8 +79,7 @@ header {
 	padding-top: 20px;
 	padding-left: 0%;
 	display: block;
-	background-color: #6f486a;
-	width: 110%;
+	font-family: Noto Sans;
 
 	h1 {
 		font-size: 40px;
@@ -98,8 +96,11 @@ header {
 	justify-content: center;
 	align-items: center;
 	font-size: 15px;
+	font-family: Patrick Hand;
 	h3 {
 		font-size: 25px;
+		font-family: Noto Sans;
+		border-top: 3px solid white;
 	}
 	img {
 		max-width: 250px;
@@ -116,38 +117,52 @@ header {
 }
 
 .detail-page-body {
-	padding-left: 10px;
-	padding-right: 10px;
-	height: 937px;
+	padding-left: 40px;
+	padding-right: 40px;
+	height: 922px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	font-size: 15px;
+	font-family: Patrick Hand;
+	p {
+		width: 100%;
+	}
 	h1 {
 		font-size: 45px;
+		font-family: Noto Sans;
 	}
+	h2 {
+		font-size: 20px;
+		font-family: Noto Sans;
+		width: 100%;
+		text-decoration: underline;
+	}
+
 	img {
 		border-radius: 8px;
+		border-bottom: 2px solid; white;
 	}
 }
 
-.back-button {
-	display: inline-block;
+/*.back-button {
+	display: block;
 	padding: 20px 20px;
-	background-color: rgb(137, 81, 41);
+	background-color: linear-gradient(90deg, #db4eeb 0%, #eb8500 100%);
 	color: rgb(0, 0, 0);
 	text-decoration: none;
 	border-radius: 8px;
 	font-weight: bold;
-	
+	font-family: Noto Sans;
 }
 
 .back-button:hover {
 		transform: scale(1.1);
-	}
+	}*/
 
 footer{
 	text-align: center;
 	font-size: 10px;
+	font-family: Noto Sans;
 	}
