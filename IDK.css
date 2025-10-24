@@ -1,3 +1,6 @@
+html, body {
+	height: 100%;
+}
 body {
 	color: rgb(200, 200, 200);
 	background: linear-gradient(45deg, #040404 5%, #3c3f3c 50%, #666b66 100%);
@@ -167,5 +170,6 @@ footer{
 	font-size: 10px;
 	font-family: Noto Sans;
 	}
+
 
 
